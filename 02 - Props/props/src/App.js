@@ -11,7 +11,7 @@ function App() {
         hobbies={["coding ", "playing", " reading"]}
         isFunny={true}
       />
-      <Slot heading="If/else is react" s1="x" s2="x" s3="y" />
+      <Slot heading="If/else is react" s1="x" s2="x" s3="x" />
       <Messages />
     </div>
   );

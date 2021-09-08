@@ -10,7 +10,7 @@ export default class Slot extends Component {
         <p>
           {s1} {s2} {s3}
         </p>
-        <p>
+        <p className={winner ? "win" : "lose"}>
           <b>{winner ? "You are a winner :) " : "loser !"}</b>
         </p>
       </div>

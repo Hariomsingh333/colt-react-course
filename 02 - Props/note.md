@@ -96,3 +96,29 @@ export default class Hello extends Component {
   }
 }
 ```
+
+## Style React component
+
+we can style react component using many method
+
+### method 1 - css file import
+
+we can import css file and use in out component
+
+```js
+import "./style.css";
+```
+
+### method 2 - define inline css
+
+we can also use inline css in our component's tag
+
+```js
+<p style={{backgroundColor: black}}>
+```
+
+- we use 2 curly braces
+- 1st curly braces for jsx, because we define JavaScript.
+- second for Object, all the style we use in a object
+
+- also we use DOM css element like : camelCase style
