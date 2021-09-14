@@ -1,0 +1,20 @@
+.CoinContainer {
+  width: 100%;
+  height: 100vh;
+}
+
+.btn {
+  padding: 1rem;
+  border: 0;
+  border-radius: 1rem;
+  background-color: #ded7cf;
+  color: rgb(80, 77, 77);
+  transition: 0.1s linear;
+}
+.btn:hover {
+  cursor: pointer;
+  transform: translateY(-0.25rem);
+}
+.btn:active {
+  background-color: rgb(211, 211, 211);
+}

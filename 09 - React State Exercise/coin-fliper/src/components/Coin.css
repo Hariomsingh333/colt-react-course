@@ -1,0 +1,10 @@
+.Coin img {
+  /* font-size: 1.5rem; */
+  width: 10rem;
+  height: 10rem;
+  /* background-color: red; */
+}
+
+.Coin {
+  margin: 1rem;
+}
