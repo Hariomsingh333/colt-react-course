@@ -1,0 +1,39 @@
+li {
+  list-style: none;
+}
+.edit-btn {
+  background-color: aquamarine;
+  text-transform: capitalize;
+  border: 0;
+  border-radius: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+.delete-btn {
+  background-color: tomato;
+  border: 0;
+  text-transform: capitalize;
+  border: 0;
+  border-radius: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  transition: 0.2s linear;
+}
+.edit-btn:hover {
+  box-shadow: 0 2px 5px 0 black;
+}
+.edit-btn:active {
+  background-color: rgb(112, 187, 162);
+}
+.delete-btn:hover {
+  box-shadow: 0 2px 5px 0 black;
+}
+.delete-btn:active {
+  background-color: rgb(224, 140, 125);
+}

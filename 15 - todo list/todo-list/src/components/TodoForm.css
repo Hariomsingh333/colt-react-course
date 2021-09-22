@@ -1,0 +1,25 @@
+form > input {
+  outline: 0;
+  background-color: rgb(224, 224, 224);
+  border: 0;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border-radius: 0.4rem;
+}
+
+form > button {
+  background-color: gray;
+  color: white;
+  border: 0;
+  text-transform: capitalize;
+  border: 0;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  transition: 0.2s linear;
+}
+button:hover {
+  box-shadow: 0 2px 5px 0 black;
+}
