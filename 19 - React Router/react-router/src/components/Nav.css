@@ -1,0 +1,7 @@
+nav a {
+  margin: 1rem;
+  display: inline-flex;
+  /* flex-direction: row; */
+
+  justify-content: space-around;
+}
